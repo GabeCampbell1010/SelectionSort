@@ -11,7 +11,7 @@ namespace SelectionSort
     {
         static void Main(string[] args)
         {
-            List<int> list = new List<int>() { 3,7,4,1,6,5,2,9,0,8, 19, 12, 13, 11, 14, 17, 16 };
+            List<int> list = new List<int>() { 3,7,17,4,1,6,19,5,13,2,9,0,8,12,11,14,16 };
             
             List<int> sorted = SelectionSort.Sort(list);
             
